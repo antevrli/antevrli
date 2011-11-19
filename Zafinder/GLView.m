@@ -25,7 +25,7 @@
 }
 
 - (void)keyUp:(NSEvent *)event {
-	//NSLog(@"ćepka %d", event.keyCode);
+	NSLog(@"ćepka %d", event.keyCode);
 	if (event.keyCode == 53)  // Escape
 		[NSApp terminate:self];
 	else if (event.keyCode == 115)  // Home
