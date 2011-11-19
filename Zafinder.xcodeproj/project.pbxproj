@@ -66,20 +66,12 @@
 		EF9D79BE146687BD00C87443 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EF9D79BF146687BD00C87443 /* Cocoa.framework */,
-				EF9D79C1146687BD00C87443 /* Other Frameworks */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		EF9D79C1146687BD00C87443 /* Other Frameworks */ = {
-			isa = PBXGroup;
-			children = (
 				EF9D79C2146687BD00C87443 /* AppKit.framework */,
 				EF9D79C3146687BD00C87443 /* CoreData.framework */,
 				EF9D79C4146687BD00C87443 /* Foundation.framework */,
+				EF9D79BF146687BD00C87443 /* Cocoa.framework */,
 			);
-			name = "Other Frameworks";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		EF9D79C5146687BD00C87443 /* Zafinder */ = {
