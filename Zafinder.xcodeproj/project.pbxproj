@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF94AA511472A5DB00C384FD /* GLView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF94AA501472A5DB00C384FD /* GLView.m */; };
+		EF9D79C0146687BD00C87443 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF9D79BF146687BD00C87443 /* Cocoa.framework */; };
+		EF9D79CA146687BE00C87443 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF9D79C8146687BE00C87443 /* InfoPlist.strings */; };
+		EF9D79CC146687BE00C87443 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9D79CB146687BE00C87443 /* main.m */; };
+		EF9D79D0146687BE00C87443 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = EF9D79CE146687BE00C87443 /* Credits.rtf */; };
+		EF9D79D3146687BE00C87443 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9D79D2146687BE00C87443 /* AppDelegate.m */; };
+		EF9D79D6146687BE00C87443 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF9D79D4146687BE00C87443 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EF94AA4F1472A5DB00C384FD /* GLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLView.h; sourceTree = "<group>"; };
+		EF94AA501472A5DB00C384FD /* GLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLView.m; sourceTree = "<group>"; };
+		EF9D79BB146687BD00C87443 /* Zafinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zafinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF9D79BF146687BD00C87443 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		EF9D79C2146687BD00C87443 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		EF9D79C3146687BD00C87443 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EF9D79C4146687BD00C87443 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EF9D79C7146687BE00C87443 /* Zafinder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Zafinder-Info.plist"; sourceTree = "<group>"; };
+		EF9D79C9146687BE00C87443 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF9D79CB146687BE00C87443 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF9D79CD146687BE00C87443 /* Zafinder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Zafinder-Prefix.pch"; sourceTree = "<group>"; };
+		EF9D79CF146687BE00C87443 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		EF9D79D1146687BE00C87443 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF9D79D2146687BE00C87443 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF9D79D5146687BE00C87443 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF9D79B8146687BD00C87443 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF9D79C0146687BD00C87443 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF9D79B0146687BD00C87443 = {
+			isa = PBXGroup;
+			children = (
+				EF9D79C5146687BD00C87443 /* Zafinder */,
+				EF9D79BE146687BD00C87443 /* Frameworks */,
+				EF9D79BC146687BD00C87443 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF9D79BC146687BD00C87443 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF9D79BB146687BD00C87443 /* Zafinder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF9D79BE146687BD00C87443 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF9D79C2146687BD00C87443 /* AppKit.framework */,
+				EF9D79C3146687BD00C87443 /* CoreData.framework */,
+				EF9D79C4146687BD00C87443 /* Foundation.framework */,
+				EF9D79BF146687BD00C87443 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF9D79C5146687BD00C87443 /* Zafinder */ = {
+			isa = PBXGroup;
+			children = (
+				EF9D79D1146687BE00C87443 /* AppDelegate.h */,
+				EF9D79D2146687BE00C87443 /* AppDelegate.m */,
+				EF94AA4F1472A5DB00C384FD /* GLView.h */,
+				EF94AA501472A5DB00C384FD /* GLView.m */,
+				EF9D79D4146687BE00C87443 /* MainMenu.xib */,
+				EF9D79C6146687BE00C87443 /* Supporting Files */,
+			);
+			path = Zafinder;
+			sourceTree = "<group>";
+		};
+		EF9D79C6146687BE00C87443 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF9D79C7146687BE00C87443 /* Zafinder-Info.plist */,
+				EF9D79C8146687BE00C87443 /* InfoPlist.strings */,
+				EF9D79CB146687BE00C87443 /* main.m */,
+				EF9D79CD146687BE00C87443 /* Zafinder-Prefix.pch */,
+				EF9D79CE146687BE00C87443 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF9D79BA146687BD00C87443 /* Zafinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF9D79D9146687BE00C87443 /* Build configuration list for PBXNativeTarget "Zafinder" */;
+			buildPhases = (
+				EF9D79B7146687BD00C87443 /* Sources */,
+				EF9D79B8146687BD00C87443 /* Frameworks */,
+				EF9D79B9146687BD00C87443 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zafinder;
+			productName = Zafinder;
+			productReference = EF9D79BB146687BD00C87443 /* Zafinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF9D79B2146687BD00C87443 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = EF9D79B5146687BD00C87443 /* Build configuration list for PBXProject "Zafinder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EF9D79B0146687BD00C87443;
+			productRefGroup = EF9D79BC146687BD00C87443 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF9D79BA146687BD00C87443 /* Zafinder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF9D79B9146687BD00C87443 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF9D79CA146687BE00C87443 /* InfoPlist.strings in Resources */,
+				EF9D79D0146687BE00C87443 /* Credits.rtf in Resources */,
+				EF9D79D6146687BE00C87443 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF9D79B7146687BD00C87443 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF9D79CC146687BE00C87443 /* main.m in Sources */,
+				EF9D79D3146687BE00C87443 /* AppDelegate.m in Sources */,
+				EF94AA511472A5DB00C384FD /* GLView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EF9D79C8146687BE00C87443 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF9D79C9146687BE00C87443 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EF9D79CE146687BE00C87443 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF9D79CF146687BE00C87443 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		EF9D79D4146687BE00C87443 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF9D79D5146687BE00C87443 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF9D79D7146687BE00C87443 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EF9D79D8146687BE00C87443 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EF9D79DA146687BE00C87443 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Zafinder/Zafinder-Prefix.pch";
+				INFOPLIST_FILE = "Zafinder/Zafinder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EF9D79DB146687BE00C87443 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Zafinder/Zafinder-Prefix.pch";
+				INFOPLIST_FILE = "Zafinder/Zafinder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF9D79B5146687BD00C87443 /* Build configuration list for PBXProject "Zafinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF9D79D7146687BE00C87443 /* Debug */,
+				EF9D79D8146687BE00C87443 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF9D79D9146687BE00C87443 /* Build configuration list for PBXNativeTarget "Zafinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF9D79DA146687BE00C87443 /* Debug */,
+				EF9D79DB146687BE00C87443 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF9D79B2146687BD00C87443 /* Project object */;
+}
