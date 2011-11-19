@@ -3,7 +3,6 @@
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 {
 	NSScrollView *_scrollview;
-	NSView *_backgroundview;
 	NSView *_glview;
 	NSString *folder;
 	NSArray *files;
@@ -13,7 +12,6 @@
 }
 @property (assign) IBOutlet NSWindow *window;
 @property (assign) IBOutlet NSScrollView *scrollview;
-@property (assign) IBOutlet NSView *backgroundview;
-@property (assign) IBOutlet NSView *contentview;
+@property (assign) IBOutlet NSView *glview;
 
 @end

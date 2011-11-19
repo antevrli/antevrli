@@ -6,7 +6,7 @@
 
 @implementation AppDelegate
 
-@synthesize window = _window, scrollview = _scrollview, backgroundview = _backgroundview, contentview = _glview;
+@synthesize window = _window, scrollview = _scrollview, glview = _glview;
 
 - (void)resize {
 	// vidljivi dio i ukupna duljina
@@ -16,7 +16,7 @@
 	full = NSMakeSize(clip.width, clip.height * max(files ? files.count : 0, 1));
 	// veličine viewova
 	[_glview setFrameSize:clip];
-	[_backgroundview setFrameSize:full];
+	[_scrollview.documentView setFrameSize:full];
 	// brzine scrollera
 	[_scrollview setVerticalPageScroll:0];
 	[_scrollview setVerticalLineScroll:clip.height];
@@ -82,7 +82,7 @@
 	int newfile = [files count]-1 - round(_scrollview.contentView.bounds.origin.y / clip.height);
 	if (newfile != file)
 		if (newfile >= 0 && newfile < (int)[files count]) {
-			NSLog(@"Scrolling to %d = %.0f / %.0f / %.0f", newfile, _scrollview.contentView.bounds.origin.y, clip.height, _backgroundview.frame.size.height);
+			NSLog(@"Scrolling to %d = %.0f / %.0f / %.0f", newfile, _scrollview.contentView.bounds.origin.y, clip.height, [_scrollview.documentView frame].size.height);
 			[self showFile:newfile];
 		} else
 			NSLog(@"INVALID OFFSET %d!", newfile);
